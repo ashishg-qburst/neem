@@ -1,0 +1,27 @@
+{
+  "name": "neem",
+  "version": "1.0.0",
+  "description": "cray cray",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "ash",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "animejs": "^2.0.2",
+    "jquery": "^3.2.1"
+  }
+}
